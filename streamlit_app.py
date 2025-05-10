@@ -74,7 +74,7 @@ if selected == "About Me":
 
     # ---- Skills ----
     st.markdown("---")
-    st.markdown("### 🛠️ Skills")
+    st.markdown("## 🛠️ Skills")
     st.write("""
     🔹**Python** (Pandas, NumPy, Streamlit, scikit-learn)  
     🔹**SQL** & Relational Databases  
@@ -85,12 +85,12 @@ if selected == "About Me":
     """)
 
     st.markdown("---")
-    st.markdown("### 📄 Download My CV")
+    st.markdown("## 📄 Download My CV")
     st.link_button("View My CV", "https://drive.google.com/file/d/1W-w1jnNZPr8sKr62sL6F4_-FXdwhJkNN/view?usp=sharing")
 
 # ---- Professional Experience ----
 elif selected == "Professional Experience":
-    st.markdown("### 💼 Professional Experience & Internships")
+    st.markdown("## 🧑‍💼 Professional Experience & Internships")
 
     st.markdown("#### 🔹 Statistical Analyst – Bandung Premier League (2022–2024)")
     st.write("""
@@ -123,7 +123,7 @@ elif selected == "Professional Experience":
 
 # ---- Projects ----
 elif selected == "Projects":
-    st.markdown("### 💼 Projects")
+    st.markdown("## 💼 Projects")
     st.markdown("#### 🔹 [ROA Financial Analysis App](https://github.com/kahfidwi/Analisis-Sederhana-Return-on-Asset)")
     st.write("An interactive CLI-based app for company performance comparison using Return on Asset (ROA). Built with Python and `tabulate` module to manage and display structured company data. Enables CRUD operations and financial ratio analysis.")
 
@@ -142,7 +142,7 @@ Published in UIN Bandung’s Digital Library. This research explores key financi
 
 # ---- Articles ----
 elif selected == "Articles":
-    st.markdown("### ✍️ Articles")
+    st.markdown("## ✍️ Articles")
     
     st.markdown("#### 🔹 [Understanding UNION, UNION ALL, INTERSECT, and MINUS in SQL](https://medium.com/@kahfidw/understanding-union-union-all-intersect-and-minus-in-sql-32665b38ac53)")
     st.write("This article walks through how to use UNION, UNION ALL, INTERSECT, and MINUS in SQL.")
@@ -155,18 +155,21 @@ elif selected == "Articles":
 
 # ---- Dashboards ----
 elif selected == "Dashboards":
-    st.markdown("### 📊 Tableau Dashboards")
+    st.markdown("## 📊 Tableau Dashboards")
+
     st.markdown("#### 🔹 [TransJakarta Dashboard](https://public.tableau.com/views/TransjakartaDashboard_17431737096620/BerandaDashboard)")
     st.write("Data analysis project to support TransJakarta's mission by analyzing routes, travel time, and user patterns for improving efficiency and quality of service.")
-
 
     st.markdown("#### 🔹 [Superstore Product Analysis](https://public.tableau.com/views/SUPERSTOREDASHBOARD_17417017585820/ProductAnalysis)")
     st.write("Comprehensive dashboard analyzing Superstore's sales and product performance.")
 
+    st.markdown("#### 🔹 [Engagement Analysis NETFLIX_ID](https://public.tableau.com/app/profile/muhamad.kahfi/viz/TheInfluenceofTimeandTypeonInstagramEngagement/ENGAGEMENTNETFLIX_ID)")
+    st.write("The Influence of Time and Type on Instagram Engagement.")
+
 
 # ---- Education ----
 elif selected == "Education":
-    st.markdown("### 🎓 Education")
+    st.markdown("## 🎓 Education")
     st.markdown("""
     🔹 **Data Science & Machine Learning**  
       Purwadhika Digital Technology School | *2025*  
@@ -180,7 +183,7 @@ elif selected == "Education":
 
 # ---- Contact ----
 elif selected == "Contact":
-    st.markdown("### 📬 Contact")
+    st.markdown("## 📬 Contact")
     st.write("📧 Email: kahfidwi2112@gmail.com")  
     st.write("🔗 LinkedIn: [linkedin.com/in/muhamadkahfidwi](https://www.linkedin.com/in/muhamadkahfidwi)")  
     st.write("💻 GitHub: [github.com/kahfidwi](https://github.com/kahfidwi)")
